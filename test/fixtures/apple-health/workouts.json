@@ -1,0 +1,10 @@
+{"data":{"workouts":[
+ {"id":"AAAAAAAA-0000-0000-0000-000000000001","name":"Functional Strength Training","start":"2026-10-10 17:09:00 -0700","end":"2026-10-10 17:56:00 -0700","duration":2820,
+  "source":{"name":"Oura","identifier":"com.ouraring.oura"},"activeEnergyBurned":{"qty":836.8,"units":"kJ"},
+  "route":[{"lat":1,"lon":2}],"heartRateData":[{"Avg":100,"Min":90,"Max":110,"date":"2026-10-10 17:10:00 -0700","units":"count/min"}]},
+ {"id":"BBBBBBBB-0000-0000-0000-000000000002","name":"Traditional Strength Training","start":"2026-10-11 00:48:37 -0700","end":"2026-10-11 00:50:01 -0700","duration":83.6,
+  "source":{"name":"Hevy","identifier":"com.hevyapp.hevy"},"isIndoor":true,"metadata":{},
+  "activeEnergyBurned":{"qty":25.44,"units":"kJ"},"route":[{"lat":1,"lon":2}],
+  "heartRateData":[{"Avg":100,"Min":90,"Max":110,"date":"2026-10-11 00:49:00 -0700","units":"count/min"}]},
+ {"name":"Walk","start":"2026-10-07 14:43:00 -0700","end":"2026-10-07 15:07:00 -0700","duration":1440,"source":"{\"name\": \"Test Watch\", \"identifier\": \"x\"}"}
+]}}

@@ -1,0 +1,35 @@
+{
+  "name": "health-hub-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "test:fast": "vitest run --exclude '**/*.db.test.ts' --exclude '**/node_modules/**'",
+    "typecheck": "tsc --noEmit",
+    "import:apple-export": "tsx scripts/import-apple-export.ts",
+    "backfill:heartrate": "tsx scripts/backfill-heartrate.ts",
+    "backfill:sleep-hr": "tsx scripts/backfill-sleep-hr.ts",
+    "review:class-boards": "tsx scripts/review-class-boards.ts",
+    "docs:fetch": "tsx scripts/fetch-vendor-docs.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "^2.3.1",
+    "mcp-handler": "^2.3.0",
+    "next": "^16.4.5",
+    "postgres": "^3.4.9",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  }
+}

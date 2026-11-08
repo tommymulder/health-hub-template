@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" font-family="Menlo, Consolas, monospace" font-size="15">
+  <!-- A made-up class board, the kind of photo log_class_workout reads. Not a real gym's programming. -->
+  <rect width="640" height="400" fill="#101418"/>
+  <text x="24" y="34" fill="#f2c94c" font-size="20">EXAMPLE GYM - STRENGTH</text>
+  <g fill="#e8eaed">
+    <text x="24" y="72">A) 3-4 SETS</text>
+    <text x="44" y="92">BARBELL STRICT PRESS x 8-6-4-2</text>
+    <text x="44" y="112">PULL UPS x 8-6-4-2</text>
+    <text x="44" y="132">DB BICEP CURL x 8</text>
+    <text x="24" y="164">B) 3-4 SETS</text>
+    <text x="44" y="184">BARBELL BENCH PRESS x 8-6-4-2</text>
+    <text x="44" y="204">BARBELL PENDLAY ROW x 8</text>
+    <text x="44" y="224">CABLE WEIGHTED CRUNCHES x 10-12</text>
+    <text x="24" y="256">C) 3 SETS</text>
+    <text x="44" y="276">DB 1+1+2 CHEST PRESS x 4</text>
+    <text x="44" y="296">DB SINGLE ARM ROW x 8/ARM</text>
+    <text x="44" y="316">DB OH TRICEP EXTENSION x 12</text>
+    <text x="24" y="348">D) EVERY 3 MINUTES x 3 ROUNDS</text>
+    <text x="44" y="368">1 MIN PLANK / 15-20 V-UPS / :30 HOLLOW HOLD / MAX SIT UPS</text>
+  </g>
+</svg>

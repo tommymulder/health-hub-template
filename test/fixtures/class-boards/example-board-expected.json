@@ -1,0 +1,188 @@
+{
+  "_comment": "A made-up class board in the shape log_class_workout expects: what Claude should extract from the photo of a board (example-board.svg) as the `planned` structure. hevy_hint names are guesses; resolve them against exercise_templates.",
+  "gym": "Example Gym",
+  "location_hint": "Example City",
+  "photo_time_local": "2031-03-12T06:55:00-07:00",
+  "class_type": "strength",
+  "board_text": "A) 3-4 SETS: BARBELL STRICT PRESS X 8-6-4-2 / PULL UPS X 8-6-4-2 / DB BICEP CURL X 8. B) 3-4 SETS: BARBELL BENCH PRESS X 8-6-4-2 / BARBELL PENDLAY ROW X 8 / CABLE WEIGHTED CRUNCHES X 10-12. C) 3 SETS: DB 1+1+2 CHEST PRESS X 4 / DB SINGLE ARM ROW X 8/ARM / DB OH TRICEP EXTENSION X 12. D) EVERY 3 MINUTES X 3 ROUNDS: 1 MIN PLANK HOLD (RX - 3 WALL WALKS W/ 4 SHOULDER TAPS + 4 HIP TAPS PER REP) / 15-20 V-UPS / :30 SEC HOLLOW HOLD / *MAX AB MAT SIT UPS IN REMAINING TIME.",
+  "blocks": [
+    {
+      "label": "A",
+      "format": "sets",
+      "sets": {
+        "min": 3,
+        "max": 4
+      },
+      "movements": [
+        {
+          "movement": "barbell strict press",
+          "hevy_hint": "Overhead Press (Barbell)",
+          "target": {
+            "reps_by_set": [
+              8,
+              6,
+              4,
+              2
+            ]
+          },
+          "needs_weight": true
+        },
+        {
+          "movement": "pull up",
+          "hevy_hint": "Pull Up",
+          "target": {
+            "reps_by_set": [
+              8,
+              6,
+              4,
+              2
+            ]
+          },
+          "needs_weight": false
+        },
+        {
+          "movement": "dumbbell bicep curl",
+          "hevy_hint": "Bicep Curl (Dumbbell)",
+          "target": {
+            "reps": 8
+          },
+          "needs_weight": true
+        }
+      ]
+    },
+    {
+      "label": "B",
+      "format": "sets",
+      "sets": {
+        "min": 3,
+        "max": 4
+      },
+      "movements": [
+        {
+          "movement": "barbell bench press",
+          "hevy_hint": "Bench Press (Barbell)",
+          "target": {
+            "reps_by_set": [
+              8,
+              6,
+              4,
+              2
+            ]
+          },
+          "needs_weight": true
+        },
+        {
+          "movement": "barbell pendlay row",
+          "hevy_hint": "Pendlay Row (Barbell)",
+          "target": {
+            "reps": 8
+          },
+          "needs_weight": true
+        },
+        {
+          "movement": "cable crunch",
+          "hevy_hint": "Cable Crunch",
+          "target": {
+            "reps": {
+              "min": 10,
+              "max": 12
+            }
+          },
+          "needs_weight": true
+        }
+      ]
+    },
+    {
+      "label": "C",
+      "format": "sets",
+      "sets": {
+        "min": 3,
+        "max": 3
+      },
+      "movements": [
+        {
+          "movement": "dumbbell chest press",
+          "hevy_hint": "Bench Press (Dumbbell)",
+          "target": {
+            "reps": 4,
+            "complex": "1+1+2",
+            "complex_note": "1 left arm, 1 right arm, 2 both arms = 1 rep"
+          },
+          "needs_weight": true
+        },
+        {
+          "movement": "dumbbell single arm row",
+          "hevy_hint": "Dumbbell Row",
+          "target": {
+            "reps": 8,
+            "per_side": true
+          },
+          "needs_weight": true
+        },
+        {
+          "movement": "dumbbell overhead tricep extension",
+          "hevy_hint": "Overhead Triceps Extension (Dumbbell)",
+          "target": {
+            "reps": 12
+          },
+          "needs_weight": true
+        }
+      ]
+    },
+    {
+      "label": "D",
+      "format": "every_n_minutes",
+      "interval_s": 180,
+      "rounds": 3,
+      "movements": [
+        {
+          "movement": "plank",
+          "hevy_hint": "Plank",
+          "target": {
+            "duration_s": 60
+          },
+          "alternatives": [
+            {
+              "label": "RX",
+              "movement": "wall walk",
+              "text": "3 wall walks w/ 4 shoulder taps + 4 hip taps per rep",
+              "target": {
+                "reps": 3
+              }
+            }
+          ],
+          "needs_weight": false
+        },
+        {
+          "movement": "v-up",
+          "hevy_hint": "V Up",
+          "target": {
+            "reps": {
+              "min": 15,
+              "max": 20
+            }
+          },
+          "needs_weight": false
+        },
+        {
+          "movement": "hollow hold",
+          "hevy_hint": "Hollow Body Hold",
+          "target": {
+            "duration_s": 30
+          },
+          "needs_weight": false
+        },
+        {
+          "movement": "ab mat sit-up",
+          "hevy_hint": "Sit Up",
+          "target": {
+            "max": true,
+            "note": "max reps in remaining time of the 3-min window"
+          },
+          "needs_weight": false
+        }
+      ]
+    }
+  ],
+  "follow_up_question_expected": "One combined question covering: sets done for A and B (board says 3-4); weights for strict press, curls, bench, Pendlay row, cable crunch, and the C dumbbells; plank or RX wall walks in D; and sit-up counts (or 'skip')."
+}

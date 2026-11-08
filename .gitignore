@@ -1,0 +1,46 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+.dev.vars
+
+# Dependencies / build output
+node_modules/
+.next/
+out/
+dist/
+coverage/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+
+# Supabase local
+supabase/.temp/
+supabase/.branches/
+
+# Apple Health exports (personal data — import them, don't commit them)
+export.zip
+apple_health_export/
+*.export.zip
+
+# Personal workout data (CSV exports from other apps)
+strong_workouts*.csv
+
+# Backups (pg_dump output contains all health data)
+backups/
+*.sql.gz
+*.dump
+
+# OS / editor
+.DS_Store
+*.log
+.idea/
+.vscode/
+
+# Phase 19 F: the one-time class board fixes (personal gym boards): never committed
+scripts/class-board-fixes.json
+
+# Vendor API specs fetched by `npm run docs:fetch` (their documents, not ours)
+docs/hevy-openapi.json
+docs/oura-openapi.json
+.env.local

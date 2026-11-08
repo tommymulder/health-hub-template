@@ -1,0 +1,19 @@
+{"data":{"metrics":[
+ {"name":"active_energy","units":"kJ","data":[
+  {"date":"2026-10-05 00:00:00 -0700","qty":41.84,"source":""},
+  {"date":"2026-10-05 00:01:00 -0700","qty":83.68,"source":""}]},
+ {"name":"step_count","units":"count","data":[
+  {"date":"2026-10-05 00:00:00 -0700","qty":12,"source":""},
+  {"date":"2026-10-05 00:00:00 -0700","qty":14,"source":""}]},
+ {"name":"walking_speed","units":"km/hr","data":[
+  {"date":"2026-10-05 10:00:00 -0700","qty":4.9,"source":"Test iPhone"}]},
+ {"name":"walking_running_distance","units":"km","data":[
+  {"date":"2026-10-05 10:00:00 -0700","qty":0.25,"source":"Oura"}]},
+ {"name":"heart_rate","units":"count/min","data":[
+  {"date":"2026-10-05 10:00:00 -0700","Min":60,"Avg":72,"Max":95,"source":"Oura"},
+  {"date":"2026-10-05 11:00:00 -0700","Min":58,"Avg":70,"Max":90,"source":"Test Watch"}]},
+ {"name":"blood_pressure","units":"mmHg","data":[
+  {"date":"2026-10-05 11:00:00 -0700","systolic":118,"diastolic":76,"source":"Test Cuff"}]},
+ {"name":"mystery_metric","units":"widgets","data":[
+  {"date":"2026-10-05 11:00:00 -0700","weird":"shape"}]}
+]}}

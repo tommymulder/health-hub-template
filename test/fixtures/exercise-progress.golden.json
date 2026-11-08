@@ -1,0 +1,637 @@
+{
+  "lb | Zzgold Bench Press (Barbell)": {
+    "units": "lb",
+    "exercise": {
+      "id": "gold-tpl-bench",
+      "title": "Zzgold Bench Press (Barbell)",
+      "type": "weight_reps",
+      "primary_muscle": "chest",
+      "equipment": "barbell"
+    },
+    "metric_note": "e1RM = Epley estimate w × (1 + reps/30) from normal/failure sets of up to 10 reps; PR means a new all-time best e1RM.",
+    "window": {
+      "since": "2030-09-21",
+      "until": "2031-03-20"
+    },
+    "sessions_in_window": 3,
+    "sessions_all_time": 3,
+    "trend": {
+      "metric": "best e1RM per session",
+      "first_session": {
+        "date": "2031-03-03",
+        "e1rm": 257.2
+      },
+      "peak_session": {
+        "date": "2031-03-05",
+        "e1rm": 270.1
+      },
+      "last_session": {
+        "date": "2031-03-12",
+        "e1rm": 264.6
+      },
+      "last_vs_peak_pct": -2,
+      "change_per_30_days": 11.9,
+      "note": "change_per_30_days is a straight-line fit through the whole window; it misleads when progress rose then fell, so judge by first / peak / last."
+    },
+    "all_time": {
+      "first_session": "2031-03-03",
+      "last_session": "2031-03-12",
+      "top_set": {
+        "date": "2031-03-12",
+        "type": "normal",
+        "weight": 242.5,
+        "reps": 1
+      },
+      "best_e1rm": {
+        "date": "2031-03-05",
+        "value": 270.1,
+        "from": {
+          "type": "normal",
+          "weight": 231.5,
+          "reps": 5
+        }
+      }
+    },
+    "sessions": [
+      {
+        "date": "2031-03-03",
+        "workout_id": "gold-w1",
+        "where": "gym",
+        "working_sets": 2,
+        "top_set": {
+          "type": "normal",
+          "weight": 220.5,
+          "reps": 5
+        },
+        "best_e1rm": 257.2,
+        "best_e1rm_from": {
+          "type": "normal",
+          "weight": 220.5,
+          "reps": 5
+        },
+        "volume": 2204.6
+      },
+      {
+        "date": "2031-03-05",
+        "workout_id": "gold-w2",
+        "where": "class",
+        "working_sets": 2,
+        "top_set": {
+          "type": "normal",
+          "weight": 231.5,
+          "reps": 5
+        },
+        "best_e1rm": 270.1,
+        "best_e1rm_from": {
+          "type": "normal",
+          "weight": 231.5,
+          "reps": 5
+        },
+        "volume": 1851.9,
+        "pr": true
+      },
+      {
+        "date": "2031-03-12",
+        "workout_id": "gold-w3",
+        "where": "gym",
+        "working_sets": 3,
+        "top_set": {
+          "type": "normal",
+          "weight": 242.5,
+          "reps": 1
+        },
+        "best_e1rm": 264.6,
+        "best_e1rm_from": {
+          "type": "normal",
+          "weight": 220.5,
+          "reps": 6
+        },
+        "volume": 3351
+      }
+    ]
+  },
+  "lb | Zzgold Pull Up (Assisted)": {
+    "units": "lb",
+    "exercise": {
+      "id": "gold-tpl-pull",
+      "title": "Zzgold Pull Up (Assisted)",
+      "type": "bodyweight_assisted",
+      "primary_muscle": "lats",
+      "equipment": "machine"
+    },
+    "metric_note": "Assisted exercise: lower assistance weight is better.",
+    "window": {
+      "since": "2030-09-21",
+      "until": "2031-03-20"
+    },
+    "sessions_in_window": 3,
+    "sessions_all_time": 3,
+    "trend": null,
+    "all_time": {
+      "first_session": "2031-03-03",
+      "last_session": "2031-03-12",
+      "top_set": {
+        "date": "2031-03-05",
+        "type": "normal",
+        "weight": 66.1,
+        "reps": 8
+      }
+    },
+    "sessions": [
+      {
+        "date": "2031-03-03",
+        "workout_id": "gold-w1",
+        "where": "gym",
+        "working_sets": 1,
+        "top_set": {
+          "type": "normal",
+          "weight": 88.2,
+          "reps": 8
+        },
+        "best_e1rm": null,
+        "volume": 0
+      },
+      {
+        "date": "2031-03-05",
+        "workout_id": "gold-w2",
+        "where": "class",
+        "working_sets": 1,
+        "top_set": {
+          "type": "normal",
+          "weight": 66.1,
+          "reps": 8
+        },
+        "best_e1rm": null,
+        "volume": 0,
+        "pr": true
+      },
+      {
+        "date": "2031-03-12",
+        "workout_id": "gold-w3",
+        "where": "gym",
+        "working_sets": 1,
+        "top_set": {
+          "type": "normal",
+          "weight": 66.1,
+          "reps": 10
+        },
+        "best_e1rm": null,
+        "volume": 0
+      }
+    ]
+  },
+  "lb | Zzgold Plank": {
+    "units": "lb",
+    "exercise": {
+      "id": "gold-tpl-plank",
+      "title": "Zzgold Plank",
+      "type": "duration",
+      "primary_muscle": "abdominals",
+      "equipment": "none"
+    },
+    "metric_note": "No weighted sets; progress is judged on reps or duration.",
+    "window": {
+      "since": "2030-09-21",
+      "until": "2031-03-20"
+    },
+    "sessions_in_window": 2,
+    "sessions_all_time": 2,
+    "trend": null,
+    "all_time": {
+      "first_session": "2031-03-05",
+      "last_session": "2031-03-12",
+      "top_set": {
+        "date": "2031-03-12",
+        "type": "normal",
+        "duration_s": 60
+      }
+    },
+    "sessions": [
+      {
+        "date": "2031-03-05",
+        "workout_id": "gold-w2",
+        "where": "class",
+        "working_sets": 1,
+        "top_set": {
+          "type": "normal",
+          "duration_s": 45
+        },
+        "best_e1rm": null,
+        "volume": 0
+      },
+      {
+        "date": "2031-03-12",
+        "workout_id": "gold-w3",
+        "where": "gym",
+        "working_sets": 1,
+        "top_set": {
+          "type": "normal",
+          "duration_s": 60
+        },
+        "best_e1rm": null,
+        "volume": 0,
+        "pr": true
+      }
+    ]
+  },
+  "lb | Zzgold Push Up": {
+    "units": "lb",
+    "exercise": {
+      "id": "gold-tpl-push",
+      "title": "Zzgold Push Up",
+      "type": "reps_only",
+      "primary_muscle": "chest",
+      "equipment": "none"
+    },
+    "metric_note": "No weighted sets; progress is judged on reps or duration.",
+    "window": {
+      "since": "2030-09-21",
+      "until": "2031-03-20"
+    },
+    "sessions_in_window": 2,
+    "sessions_all_time": 2,
+    "trend": null,
+    "all_time": {
+      "first_session": "2031-03-03",
+      "last_session": "2031-03-12",
+      "top_set": {
+        "date": "2031-03-12",
+        "type": "normal",
+        "reps": 25
+      }
+    },
+    "sessions": [
+      {
+        "date": "2031-03-03",
+        "workout_id": "gold-w1",
+        "where": "gym",
+        "working_sets": 2,
+        "top_set": {
+          "type": "normal",
+          "reps": 20
+        },
+        "best_e1rm": null,
+        "volume": 0
+      },
+      {
+        "date": "2031-03-12",
+        "workout_id": "gold-w3",
+        "where": "gym",
+        "working_sets": 1,
+        "top_set": {
+          "type": "normal",
+          "reps": 25
+        },
+        "best_e1rm": null,
+        "volume": 0,
+        "pr": true
+      }
+    ]
+  },
+  "kg | Zzgold Bench Press (Barbell)": {
+    "units": "kg",
+    "exercise": {
+      "id": "gold-tpl-bench",
+      "title": "Zzgold Bench Press (Barbell)",
+      "type": "weight_reps",
+      "primary_muscle": "chest",
+      "equipment": "barbell"
+    },
+    "metric_note": "e1RM = Epley estimate w × (1 + reps/30) from normal/failure sets of up to 10 reps; PR means a new all-time best e1RM.",
+    "window": {
+      "since": "2030-09-21",
+      "until": "2031-03-20"
+    },
+    "sessions_in_window": 3,
+    "sessions_all_time": 3,
+    "trend": {
+      "metric": "best e1RM per session",
+      "first_session": {
+        "date": "2031-03-03",
+        "e1rm": 116.7
+      },
+      "peak_session": {
+        "date": "2031-03-05",
+        "e1rm": 122.5
+      },
+      "last_session": {
+        "date": "2031-03-12",
+        "e1rm": 120
+      },
+      "last_vs_peak_pct": -2,
+      "change_per_30_days": 5.4,
+      "note": "change_per_30_days is a straight-line fit through the whole window; it misleads when progress rose then fell, so judge by first / peak / last."
+    },
+    "all_time": {
+      "first_session": "2031-03-03",
+      "last_session": "2031-03-12",
+      "top_set": {
+        "date": "2031-03-12",
+        "type": "normal",
+        "weight": 110,
+        "reps": 1
+      },
+      "best_e1rm": {
+        "date": "2031-03-05",
+        "value": 122.5,
+        "from": {
+          "type": "normal",
+          "weight": 105,
+          "reps": 5
+        }
+      }
+    },
+    "sessions": [
+      {
+        "date": "2031-03-03",
+        "workout_id": "gold-w1",
+        "where": "gym",
+        "working_sets": 2,
+        "top_set": {
+          "type": "normal",
+          "weight": 100,
+          "reps": 5
+        },
+        "best_e1rm": 116.7,
+        "best_e1rm_from": {
+          "type": "normal",
+          "weight": 100,
+          "reps": 5
+        },
+        "volume": 1000
+      },
+      {
+        "date": "2031-03-05",
+        "workout_id": "gold-w2",
+        "where": "class",
+        "working_sets": 2,
+        "top_set": {
+          "type": "normal",
+          "weight": 105,
+          "reps": 5
+        },
+        "best_e1rm": 122.5,
+        "best_e1rm_from": {
+          "type": "normal",
+          "weight": 105,
+          "reps": 5
+        },
+        "volume": 840,
+        "pr": true
+      },
+      {
+        "date": "2031-03-12",
+        "workout_id": "gold-w3",
+        "where": "gym",
+        "working_sets": 3,
+        "top_set": {
+          "type": "normal",
+          "weight": 110,
+          "reps": 1
+        },
+        "best_e1rm": 120,
+        "best_e1rm_from": {
+          "type": "normal",
+          "weight": 100,
+          "reps": 6
+        },
+        "volume": 1520
+      }
+    ]
+  },
+  "kg | Zzgold Pull Up (Assisted)": {
+    "units": "kg",
+    "exercise": {
+      "id": "gold-tpl-pull",
+      "title": "Zzgold Pull Up (Assisted)",
+      "type": "bodyweight_assisted",
+      "primary_muscle": "lats",
+      "equipment": "machine"
+    },
+    "metric_note": "Assisted exercise: lower assistance weight is better.",
+    "window": {
+      "since": "2030-09-21",
+      "until": "2031-03-20"
+    },
+    "sessions_in_window": 3,
+    "sessions_all_time": 3,
+    "trend": null,
+    "all_time": {
+      "first_session": "2031-03-03",
+      "last_session": "2031-03-12",
+      "top_set": {
+        "date": "2031-03-05",
+        "type": "normal",
+        "weight": 30,
+        "reps": 8
+      }
+    },
+    "sessions": [
+      {
+        "date": "2031-03-03",
+        "workout_id": "gold-w1",
+        "where": "gym",
+        "working_sets": 1,
+        "top_set": {
+          "type": "normal",
+          "weight": 40,
+          "reps": 8
+        },
+        "best_e1rm": null,
+        "volume": 0
+      },
+      {
+        "date": "2031-03-05",
+        "workout_id": "gold-w2",
+        "where": "class",
+        "working_sets": 1,
+        "top_set": {
+          "type": "normal",
+          "weight": 30,
+          "reps": 8
+        },
+        "best_e1rm": null,
+        "volume": 0,
+        "pr": true
+      },
+      {
+        "date": "2031-03-12",
+        "workout_id": "gold-w3",
+        "where": "gym",
+        "working_sets": 1,
+        "top_set": {
+          "type": "normal",
+          "weight": 30,
+          "reps": 10
+        },
+        "best_e1rm": null,
+        "volume": 0
+      }
+    ]
+  },
+  "kg | Zzgold Plank": {
+    "units": "kg",
+    "exercise": {
+      "id": "gold-tpl-plank",
+      "title": "Zzgold Plank",
+      "type": "duration",
+      "primary_muscle": "abdominals",
+      "equipment": "none"
+    },
+    "metric_note": "No weighted sets; progress is judged on reps or duration.",
+    "window": {
+      "since": "2030-09-21",
+      "until": "2031-03-20"
+    },
+    "sessions_in_window": 2,
+    "sessions_all_time": 2,
+    "trend": null,
+    "all_time": {
+      "first_session": "2031-03-05",
+      "last_session": "2031-03-12",
+      "top_set": {
+        "date": "2031-03-12",
+        "type": "normal",
+        "duration_s": 60
+      }
+    },
+    "sessions": [
+      {
+        "date": "2031-03-05",
+        "workout_id": "gold-w2",
+        "where": "class",
+        "working_sets": 1,
+        "top_set": {
+          "type": "normal",
+          "duration_s": 45
+        },
+        "best_e1rm": null,
+        "volume": 0
+      },
+      {
+        "date": "2031-03-12",
+        "workout_id": "gold-w3",
+        "where": "gym",
+        "working_sets": 1,
+        "top_set": {
+          "type": "normal",
+          "duration_s": 60
+        },
+        "best_e1rm": null,
+        "volume": 0,
+        "pr": true
+      }
+    ]
+  },
+  "kg | Zzgold Push Up": {
+    "units": "kg",
+    "exercise": {
+      "id": "gold-tpl-push",
+      "title": "Zzgold Push Up",
+      "type": "reps_only",
+      "primary_muscle": "chest",
+      "equipment": "none"
+    },
+    "metric_note": "No weighted sets; progress is judged on reps or duration.",
+    "window": {
+      "since": "2030-09-21",
+      "until": "2031-03-20"
+    },
+    "sessions_in_window": 2,
+    "sessions_all_time": 2,
+    "trend": null,
+    "all_time": {
+      "first_session": "2031-03-03",
+      "last_session": "2031-03-12",
+      "top_set": {
+        "date": "2031-03-12",
+        "type": "normal",
+        "reps": 25
+      }
+    },
+    "sessions": [
+      {
+        "date": "2031-03-03",
+        "workout_id": "gold-w1",
+        "where": "gym",
+        "working_sets": 2,
+        "top_set": {
+          "type": "normal",
+          "reps": 20
+        },
+        "best_e1rm": null,
+        "volume": 0
+      },
+      {
+        "date": "2031-03-12",
+        "workout_id": "gold-w3",
+        "where": "gym",
+        "working_sets": 1,
+        "top_set": {
+          "type": "normal",
+          "reps": 25
+        },
+        "best_e1rm": null,
+        "volume": 0,
+        "pr": true
+      }
+    ]
+  },
+  "lb | bench since 2031-03-10": {
+    "units": "lb",
+    "exercise": {
+      "id": "gold-tpl-bench",
+      "title": "Zzgold Bench Press (Barbell)",
+      "type": "weight_reps",
+      "primary_muscle": "chest",
+      "equipment": "barbell"
+    },
+    "metric_note": "e1RM = Epley estimate w × (1 + reps/30) from normal/failure sets of up to 10 reps; PR means a new all-time best e1RM.",
+    "window": {
+      "since": "2031-03-10",
+      "until": "2031-03-20"
+    },
+    "sessions_in_window": 1,
+    "sessions_all_time": 3,
+    "trend": null,
+    "all_time": {
+      "first_session": "2031-03-03",
+      "last_session": "2031-03-12",
+      "top_set": {
+        "date": "2031-03-12",
+        "type": "normal",
+        "weight": 242.5,
+        "reps": 1
+      },
+      "best_e1rm": {
+        "date": "2031-03-05",
+        "value": 270.1,
+        "from": {
+          "type": "normal",
+          "weight": 231.5,
+          "reps": 5
+        }
+      }
+    },
+    "sessions": [
+      {
+        "date": "2031-03-12",
+        "workout_id": "gold-w3",
+        "where": "gym",
+        "working_sets": 3,
+        "top_set": {
+          "type": "normal",
+          "weight": 242.5,
+          "reps": 1
+        },
+        "best_e1rm": 264.6,
+        "best_e1rm_from": {
+          "type": "normal",
+          "weight": 220.5,
+          "reps": 6
+        },
+        "volume": 3351
+      }
+    ]
+  }
+}
