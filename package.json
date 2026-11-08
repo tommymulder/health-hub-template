@@ -13,7 +13,8 @@
     "backfill:heartrate": "tsx scripts/backfill-heartrate.ts",
     "backfill:sleep-hr": "tsx scripts/backfill-sleep-hr.ts",
     "review:class-boards": "tsx scripts/review-class-boards.ts",
-    "docs:fetch": "tsx scripts/fetch-vendor-docs.ts"
+    "docs:fetch": "tsx scripts/fetch-vendor-docs.ts",
+    "doctor": "tsx scripts/doctor.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/server": "^2.3.1",

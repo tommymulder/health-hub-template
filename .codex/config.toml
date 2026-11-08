@@ -1,0 +1,8 @@
+# Codex reads this project file only after you trust the project. Sign in to each server with:
+#   codex mcp login supabase
+#   codex mcp login vercel
+[mcp_servers.supabase]
+url = "https://mcp.supabase.com/mcp"
+
+[mcp_servers.vercel]
+url = "https://mcp.vercel.com"
