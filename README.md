@@ -2,7 +2,7 @@
 
 A small server that puts your **Oura ring, Apple Health, lab results and Hevy workouts** in one place, so an AI app (Claude, Cursor, Codex, or any app that speaks MCP) can answer questions like *"how recovered am I, and what should I train today?"* from your real numbers instead of guessing.
 
-> **A suggested starting point.** Take it, change it, make it yours. There is no support and no promise it keeps working when Oura, Hevy, Apple or Vercel change something.
+> **A suggested starting point.** Take it, change it, make it yours.
 
 > **Not medical advice.** It reports your data and trends. It is not a doctor, and nothing it says is a diagnosis. Talk to a clinician about anything that worries you.
 
